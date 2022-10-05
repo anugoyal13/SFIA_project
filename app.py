@@ -68,7 +68,7 @@ def register():
         existing_username = dbuser_cur.fetchone()
         if existing_username:
             return render_template('register.html', registererror = 'Username already taken , try different username.')
-        db.execute('insert into users ( name, password) values (?, ?)',[name, hashed_password])
+        db.execute('insert into users ( name, password) values (?, ?)', [name, hashed_password])
         db.commit()
         return redirect(url_for('index'))
     return render_template('register.html', user = user)
