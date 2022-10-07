@@ -2,7 +2,7 @@ from flask import g
 import sqlite3
 
 def connect_to_database():
-    sql = sqlite3.connect('C:/Users/sanje/OneDrive/Desktop/SFIA_project/SFIA_project.db')
+    sql = sqlite3.connect('SFIA_project.db')
     sql.row_factory = sqlite3.Row
     return sql
 
