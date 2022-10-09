@@ -6,7 +6,7 @@ web application with CRUD functionalities
 ## Description:
 Web application with python backend.Adopted flask web framework,SQLAlchemy database to deliver CRUD functionality.This is a monolithic Flask application that serves both the frontend and backend of the application. 
 The frontend aspect of the app will use HTML templates to serve the web pages that allow the user to perform CRUD functionality with information from the database.
-The backend aspect of the application will use SQLAlchemy to model and integrate with the database.There is a one table(entity) called Employee having some fields(attributes) like Emp_id, Emp_name, Contact_number, Address, Email_id. We can add the new employees records to the table and can also delete or modify the records as per requirements.
+The backend aspect of the application will use SQLAlchemy to model and integrate with the database.There is a one table(entity) called Employee and another table(entity) called users.Users table maintaining users for login having fields(attributes) like id,username ,password for authentication. Employee table having some fields(attributes) like Emp_id, Full name, phone, Address, Email_id,joining date, number of projects handled etc..We can view the all employe records and particular profile for single employee.We can add the new employees records to the table and can also delete or modify the records as per requirements.
 This application will be hosted in a container to allow it to be deployed to a Docker Swarm.
 
 # MOTIVATION:
