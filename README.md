@@ -2,14 +2,16 @@
 web application with CRUD functionalities
 
 
+# TITLE: Employee Management System
+
+
+
 ![login](https://user-images.githubusercontent.com/72322155/195127017-24eb5b35-6d10-4c6e-9f81-f57627ded540.png)
 
 ![Screenshot (405)](https://user-images.githubusercontent.com/72322155/195135785-bb07dbe8-7086-4240-bce3-0dc6f5a78e34.png)
 
 ![Employee_details](https://user-images.githubusercontent.com/72322155/195127065-f6be9d9e-744a-449b-87af-d8405ae3f72c.png)
 
-
-# TITLE: Employee Management System
 
 ## Description:
 Web application with python backend.Adopted flask web framework,SQLite3 database to deliver CRUD functionality.This is a monolithic Flask application that serves both the frontend and backend of the application. 
