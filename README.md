@@ -51,9 +51,9 @@ This application is continuously built, tested, and deployed using Jenkins pipel
 ## Installation:
   * Install flask dependencies with pip.
   * Install SQLite3
-  * Azure portal subscription
-  * Install Jenkins.
-  * Install Docker and Docker swarm.
+  * Virtual machine installation
+  * Install Jenkins on virtual machine.
+  * Install Docker and Docker swarm on virtual machine.
   
 ## Roadmap:
   * Setup the Flask Folder Structure.
