@@ -4,6 +4,7 @@ web application with CRUD functionalities
 
 (https://user-images.githubusercontent.com/72322155/195123164-6d00f09f-256c-47f1-b304-5be5cfe9196a.png)
 
+https://user-images.githubusercontent.com/72322155/195125904-a2a398c1-da78-4864-8738-ceb4ce1beea6.png
 
 # TITLE: Employee Management System
 
