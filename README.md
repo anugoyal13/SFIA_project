@@ -6,13 +6,16 @@ web application with CRUD functionalities
 
 ![dashboard](https://user-images.githubusercontent.com/72322155/195125904-a2a398c1-da78-4864-8738-ceb4ce1beea6.png)
 
+![Employee_details](https://user-images.githubusercontent.com/72322155/195127065-f6be9d9e-744a-449b-87af-d8405ae3f72c.png)
+
+
 # TITLE: Employee Management System
 
 ## Description:
-Web application with python backend.Adopted flask web framework,SQLAlchemy database to deliver CRUD functionality.This is a monolithic Flask application that serves both the frontend and backend of the application. 
+Web application with python backend.Adopted flask web framework,SQLite3 database to deliver CRUD functionality.This is a monolithic Flask application that serves both the frontend and backend of the application. 
 The frontend aspect of the app will use HTML templates to serve the web pages that allow the user to perform CRUD functionality with information from the database.
-The backend aspect of the application will use SQLAlchemy to model and integrate with the database.There is a one table(entity) called Employee and another table(entity) called users.Users table maintaining users for login having fields(attributes) like id,username ,password for authentication. Employee table having some fields(attributes) like Emp_id, Full name, phone, Address, Email_id,joining date, number of projects handled etc..We can view the all employe records and particular profile for single employee.We can add the new employees records to the table and can also delete or modify the records as per requirements.
-This application will be hosted in a container to allow it to be deployed to a Docker Swarm.
+The backend aspect of the application will use SQLite3 to model and integrate with the database.There is a one table(entity) called Employee and another table(entity) called users.Users table maintaining users for login having fields(attributes) like id,username ,password for authentication. Employee table having some fields(attributes) like Emp_id, Full name, phone, Address, Email_id,joining date, number of projects handled etc..We can view the all employe records and particular profile for single employee.We can add the new employees records to the table and can also delete or modify the records as per requirements.
+This application is continuously built, tested, and deployed using Jenkins pipelines and will be hosted in a cloud server using Docker container.
 
 # MOTIVATION:
   * To develop a simple, robust application to easily maintain the personal details of employees.
@@ -26,10 +29,27 @@ This application will be hosted in a container to allow it to be deployed to a D
   * Update employee details.
   * Delete employee details.
   
+ # Built With:
+   Major frameworks/libraries and Software used for this project:
+   *  Python 3 - The language programming used
+   *  Flask - The web framework used
+   *  SQLite3 database
+   *  Docker
+   *  Jenkins
+  
 # GETTING STARTED:
+## For this project you need to use the following software:
+   *  Python
+   *  Flask
+   *  SQLite database
+   *  Docker
+   *  Jenkins
+   *  Azure Cloud Services 
 
 ## Installation:
-  * Install flask,SQLAlchemy, Flask- SQLAlchemy dependencies with pip.
+  * Install flask dependencies with pip.
+  * Install SQLite3
+  * Azure portal subscription
   * Install Jenkins.
   * Install Docker and Docker swarm.
   
@@ -38,5 +58,6 @@ This application will be hosted in a container to allow it to be deployed to a D
   * Add Application Files to it.
   * Connect application to database.
   * Add Test Files.
+  * Virtual machine installed
   * Add Jenkins File.
   * Add Docker File.
