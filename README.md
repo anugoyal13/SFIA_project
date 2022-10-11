@@ -40,6 +40,9 @@ This application is continuously built, tested, and deployed using Jenkins pipel
    *  Jenkins
   
 # GETTING STARTED:
+
+![database_schema](https://user-images.githubusercontent.com/72322155/195145248-6f83c957-42a0-44b3-8928-5381cebe2c8f.png)
+
 ## For this project you need to use the following software:
    *  Python
    *  Flask
